@@ -1,4 +1,3 @@
-require 'byebug'
 
 class AppointmentsController < ApplicationController
   before_action :find_appointment, only: [:show, :edit, :update, :destroy, :toggle_status]

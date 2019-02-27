@@ -1,4 +1,3 @@
-require  'byebug'
 class OwnersController < ApplicationController
   before_action :find_owner, only:[:show, :edit, :update, :destroy]
 
