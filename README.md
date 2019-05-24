@@ -1,26 +1,12 @@
 # Dog Walking App
 
+Welcome to Dog Walking App, a Ruby on Rails web application that allows users to create appointments for their dogs or take up appointments to care for others dogs. Demo: https://youtu.be/bqGjV5hzfRQ
 
-* Mod 2 project based on a dog walking service...
-* Project has six models
+Instructions for use:
 
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Fork and clone this repo.
+In your terminal, change directory into this file and open it in your code editor
+In your terminal run `rails db:create && rails db:migrate`
+Then run `rails db:seed`
+Run `rails s` and open your browser to localhost:3000
+Thank you for checking out our project! Have fun!
